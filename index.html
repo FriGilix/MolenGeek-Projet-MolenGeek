@@ -1,37 +1,362 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MolenGeek</title>
+    <title>Projet MolenGeek</title>
     <link rel="stylesheet" href="/public/css/style.css">
 </head>
 <body>
-
-    <header>
-        <nav class="navbar">
-            <div class="navbar-logo">
-                <a href="#"><img src="/public/img/MG_LOGO_V3x50-1.png" alt="Molengeek Logo"></a>
+    <div class="navbar">
+        <div class="navbar-top">
+            <div class="info">
+                <span>📞 0470/67.51.41</span>
+                <span>📧 info@molengeek.com</span>
             </div>
-
-            <ul class="navbar-links">
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#campus">Campus</a></li>
-                <li><a href="#formations">Formations</a></li>
-                <li><a href="#coworking">Coworking</a></li>
-                <li><a href="#propos">A Propos</a></li>
-                <li><a href="#presse">Presse</a></li>
-                <li><a href="#sidegeek">Sidegeek</a></li>
-                <li><a href="#jobs">Jobs</a></li>
-            </ul>
-            <div class="burger">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div class="logo">Molen<span>Geek</span></div>
+            <div class="menu">
+                <div class="dropdown">
+                    <a href="#">Campus ▾</a>
+                    <div class="dropdown-content">
+                        <a href="#">Antwerp</a>
+                        <a href="#">Charleroi</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#">Formations ▾</a>
+                    <div class="dropdown-content">
+                        <a href="#">Formations digitales longues</a>
+                        <a href="#">Formations courtes</a>
+                    </div>
+                </div>
+                    <a href="#">Coworking</a>
+                    <a href="#">Agenda</a>
+                    <a href="#">A Propos</a>
+                    <a href="#">Presse</a>
+                    <a href="#">Sidegeek</a>
+                    <a href="#">Jobs</a>
+                    <a href="#" class="contact">Contactez-nous</a>
             </div>
-        </nav>
-    </header>
-    
+        </div>
+    </div>
+
+    <div class="hero-section">
+        <div class="content">
+            <h1>#DigitalForAll #Formations</h1>
+            <p>Molengeek l'écosystème qui rend le digital accessible à tous</p>
+        </div>
+    </div>
+
+    <div class="about-section">
+        <h2>MOLENGEEK, C'EST QUOI?</h2>
+        <p>Molengeek est situé au coeur de Molengeek à Bruxelles. Notre mission est de rendre le secteur des technologies accessible à toute personne désirant surfer sur la vague du digital, peu importe les origines ou le niveau de formation.</p>
+        <p>Nous sommes composés de trois piliers principaux : un espace de coworking, des programmes de formation à long et court terme et des évènements dynamiques, tels que des Hackathons, des Geektalks, etc.</p>
+        <div class="features">
+            <div class="feature">
+                <img src="/public/img/GoldoHack.png" alt="Coworking">
+                <h3>Coworking</h3>
+                <a href="#">En savoir plus</a>
+            </div>
+            <div class="feature">
+                <img src="/public/img/Yoda.png" alt="Formations">
+                <h3>Formations</h3>
+                <a href="#">En savoir plus</a>
+            </div>
+            <div class="feature">
+                <img src="/public/img/Main.png" alt="Événements">
+                <h3>Événements</h3>
+                <a href="#">En savoir plus</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="carousel-section">
+        <h2>Nos Formations</h2>
+        <div class="carousel-container">
+          <div class="carousel-buttons">
+            <button class="carousel-button" id="prev">❮</button>
+            <button class="carousel-button" id="next">❯</button>
+          </div>
+          <div class="carousel-track">
+            <div class="carousel-item">
+              <h3>Formations Courtes</h3>
+              <p>Pour ajouter des compétences rapidement à mon C.V.</p>
+              <ul>
+                <li>Photoshop CC (débutant)</li>
+                <li>Premiere Pro (débutant)</li>
+                <li>WordPress (débutant)</li>
+                <li>Réseaux Sociaux (débutant)</li>
+              </ul>
+              <a href="#">Je découvre toutes les formations courtes</a>
+            </div>
+            <div class="carousel-item">
+              <h3>Formations Longues</h3>
+              <p>Pour me former entièrement à un nouveau métier.</p>
+              <ul>
+                <li>Web Developer</li>
+                <li>Marketing Digital</li>
+                <li>Intelligence Artificielle</li>
+              </ul>
+              <a href="#">Je découvre toutes les formations longues</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="important-dates-section">
+        <h2>Dates importantes qui arrivent</h2>
+        <div class="dates-container">
+            <div class="date-item">
+                <div class="date">14/02</div>
+                <div class="details">
+                    <span class="event-title">Séance d'info TIC</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">24/01</div>
+                <div class="details">
+                    <span class="event-title">Formation Google Analytics</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">27/01 - 29/01</div>
+                <div class="details">
+                    <span class="event-title">Formation Réseaux Sociaux</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">27/01 - 29/01</div>
+                <div class="details">
+                    <span class="event-title">Formation HTML</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">27/01 - 30/01</div>
+                <div class="details">
+                    <span class="event-title">Formation InDesign</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">27/01 - 29/01</div>
+                <div class="details">
+                    <span class="event-title">Formation Shopify</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">27/01 - 30/01</div>
+                <div class="details">
+                    <span class="event-title">Formation Illustrator</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">30/01 - 31/01</div>
+                <div class="details">
+                    <span class="event-title">Formation Réseaux Sociaux</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">30/01 - 31/01</div>
+                <div class="details">
+                    <span class="event-title">Formation Shopify</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">30/01 - 31/01</div>
+                <div class="details">
+                    <span class="event-title">Formation Audition</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">30/01 - 31/01</div>
+                <div class="details">
+                    <span class="event-title">Formation WordPress</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">03/02 - 06/02</div>
+                <div class="details">
+                    <span class="event-title">Formation Premiere Pro</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">03/02 - 06/02</div>
+                <div class="details">
+                    <span class="event-title">Formation JavaScript</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">03/02 - 06/02</div>
+                <div class="details">
+                    <span class="event-title">Formation After Effect</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">03/02 - 05/02</div>
+                <div class="details">
+                    <span class="event-title">Formation WordPress</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">06/02 - 07/02</div>
+                <div class="details">
+                    <span class="event-title">Formation WordPress</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">06/02</div>
+                <div class="details">
+                    <span class="event-title">Formation Google Adwords</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">07/02</div>
+                <div class="details">
+                    <span class="event-title">Formation Google Analytics</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">10/02 - 13/02</div>
+                <div class="details">
+                    <span class="event-title">Formation Python</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">10/02 - 12/02</div>
+                <div class="details">
+                    <span class="event-title">Formation Réseaux Sociaux</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">10/02 - 13/02</div>
+                <div class="details">
+                    <span class="event-title">Formation Illustrator</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">10/02 - 13/02</div>
+                <div class="details">
+                    <span class="event-title">Formation Photoshop</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">10/02 - 12/02</div>
+                <div class="details">
+                    <span class="event-title">Formation Shopify</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">13/02 - 14/02</div>
+                <div class="details">
+                    <span class="event-title">Formation Réseaux Sociaux</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+            <div class="date-item">
+                <div class="date">13/02 - 14/02</div>
+                <div class="details">
+                    <span class="event-title">Formation Google Analytics</span>
+                    <a href="#" class="more-info">Voir détails</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="partners-section">
+        <h2>Nos Partenaires</h2>
+        <div class="partners-logos">
+            <div class="partner-logo"><img src="/public/img/Google.png" alt="Google"></div>
+            <div class="partner-logo"><img src="/public/img/Logo-Proximus-PNG.png" alt="Proximus"></div>
+            <div class="partner-logo"><img src="/public/img/BNP.png" alt="BNP"></div>
+            <div class="partner-logo"><img src="/public/img/Microsoft.png" alt="Microsoft"></div>
+            <div class="partner-logo"><img src="/public/img/Meta-Logo.png" alt="Meta"></div>
+            <div class="partner-logo"><img src="/public/img/logo-pwc.png" alt="PWC"></div>
+            <div class="partner-logo"><img src="/public/img/logo-aws-restart-2x.png" alt="AWS"></div>
+            <div class="partner-logo"><img src="/public/img/Actiris.png" alt="Actiris"></div>
+            <div class="partner-logo"><img src="/public/img/Bruxelles-Formation_300dpi_blue.png" alt="Bruxelles"></div>
+        </div>
+    </div>
+
+    <section>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.693555169479!2d4.338645076848231!3d50.8553587581269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c38c275028d3%3A0xc7799151146ebf77!2sMolenGeek!5e0!3m2!1sfr!2sbe!4v1737729650767!5m2!1sfr!2sbe" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <div class="contact-container">
+        <h2>CONTACTEZ-NOUS!</h2>
+        <p><strong>MolenGeek ASBL</strong></p>
+        <p>10, place de la Minoterie<br>1080 Molenbeek-Saint-Jean</p>
+        <p>TVA BE 0655.835.212</p>
+        <p><strong>Numéro de téléphone :</strong><br>0470/67.51.41</p>
+        <p><strong>Email :</strong><br><a href="mailto:info@molengeek.com">info@molengeek.com</a></p>
+    </div>
+    </section>
+<hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
+<div class="newsletter-section">
+    <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="newsletter icon">
+    <h2>Inscris-toi à notre newsletter</h2>
+    <form class="newsletter-form">
+        <input type="email" placeholder="Email" required>
+        <button type="submit">SUBSCRIBE</button>
+    </form>
+</div>
+
+<footer>
+    <div class="social-icons">
+        <a href="https://facebook.com" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+            Facebook
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+            Twitter
+            </a>
+            <a href="https://instagram.com/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram">
+            Instagram
+            </a>
+            <a href="https://tiktok.com/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/3046/3046127.png" alt="TikTok">
+            TikTok
+        </a>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="logo">
+        <img src="/public/img/MG_LOGO_V3x50-1.png" alt="MolenGeek Logo" width="100">
+    </div>
+
+    <p class="footer-text">MolenGeek est une organisation à but non lucratif.</p>
+    <p class="footer-text">Copyright © 2022. Coworking Co.</p>
+        
+   
+</footer>
+
+
+
     <script src="/public/js/main.js"></script>
 </body>
 </html>
